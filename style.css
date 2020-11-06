@@ -3,6 +3,11 @@ h2 {
 }
 ul {
     list-style-type: none;
-    margin:0; 
-    padding: 0;
+    padding:4;
+    margin: 3;
+}
+nav {
+    font-size: 14px;
+    font-family:  Palatino;
+    text-align: left;
 }
