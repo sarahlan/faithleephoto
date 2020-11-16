@@ -1,13 +1,18 @@
-.nav-link{
-    font-family: Helvetica;
-    color: rgba(209, 110, 17);
-    padding:40px;
+.nav-link {
+    font-family: garamond;
+    font-size: 21px;
+    color: #774224;
+    padding: 20px;
+    
 }
 
 a:hover {
   color: lightgray;
 }
 
-.nav {
+.nav-item {
     margin:30px;
+}
+.carousel-inner {
+   width:640px; height:360px; 
 }
