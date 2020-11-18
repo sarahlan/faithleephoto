@@ -2,7 +2,7 @@
     font-family: garamond;
     font-size: 21px;
     color: #774224;
-    padding: 20px;
+    padding: 18px;
     
 }
 
@@ -12,4 +12,17 @@ a:hover {
 
 .nav-item {
     margin:30px;
+}
+
+.header {
+width: 600px;
+  height: 500px;
+  margin: auto;
+  position: center;
+  padding: 20px;
+ }
+ 
+ .carousel-item {
+  height: audio; 
+  margin: 0;
 }
