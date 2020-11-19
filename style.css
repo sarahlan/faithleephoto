@@ -14,15 +14,29 @@ a:hover {
     margin:30px;
 }
 
-.header {
-width: 600px;
-  height: 500px;
-  margin: auto;
-  position: center;
-  padding: 20px;
- }
- 
- .carousel-item {
-  height: audio; 
-  margin: 0;
+INDEX PAGE
+
+.no-gutters {
+  padding:50px;
 }
+
+.col-md-4 {
+  padding:50px
+}
+
+.card-img {
+  max-width: 470px;
+  max-height: 620px;
+  padding-left: 50px;
+}
+
+CONTECT PAGE
+.header{
+  width: 500px;
+  height: 200px;
+  margin: auto;
+  text-align: center;
+  font-family: Georgia;
+  color:  rgb(110, 17, 17);
+}
+
