@@ -35,33 +35,36 @@
       </div>
       </nav>
     
-     <div class="header">
-      <h1>Contact Me</h1>
-    </div>
 
-    <div>
-      <form action="/action_page.php">
-        <table class= "border.form">
-              <tr>
-                 <td><label for="fname">First Name</label>
-                 <input type="text" id="fname" name="firstname" placeholder="name.."></td>
-                 
-                 <td><label for="lname">Last Name</label>
-                 <input type="text" id="lname" name="lastname" placeholder="last name.."></td>
-             </tr>
-              <tr>
-                <td><label for= "fname">Email</label>
-                <input type="text" id="lname" name="lastname" placeholder="email.."></td>
+    <form class="border border-light p-5">
 
-                <td><label for= "lname">Moble Number</label>
-                <input type="text" id="lname" name="lastname" placeholder="moblie number.."></td>
-            </tr>
-            <tr>
-               <td><input type="submit" value="Submit"><td>
-            </tr>
-      </form>
-    </div>
-  </table>
+      <p class="header">
+        <h1>Contact Me</h1>
+      </p>
+  
+      <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Name">
+  
+      <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail">
+  
+      <label for="select">Choose your sesson</label>
+      <select class="browser-default custom-select mb-4" id="select">
+          <option value="" disabled="" selected="">Choose your option</option>
+          <option value="1">Option 1</option>
+          <option value="2">Option 2</option>
+          <option value="3">Option 3</option>
+      </select>
+  
+      <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Message"></textarea>
+  
+      <div class="custom-control custom-checkbox mb-4">
+          <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy">
+          <label class="custom-control-label" for="defaultContactFormCopy">Send me a copy of this message</label>
+      </div>
+  
+      <button class="btn btn-info btn-block" type="submit">Send</button>
+  </form>
+    
+  
 </body>
 </html>
     
