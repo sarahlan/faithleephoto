@@ -35,24 +35,20 @@ INDEX PAGE
 }
 
 .col-md-4 {
-  padding:100px
-}
-
-.card-img {
-  max-width: 450px;
-  max-height: 650px;
-  padding-left: 200px;
+  padding: 30px 50px 30px 50px;
+  text-align: center;
+  font-family: garamond;
+  font-size:45px;
 }
 
 .card-body {
   font-family: garamond;
     font-size: 40px;
     text-align: center;
-    padding-right: 100px;
-
+    padding: 10px;
 }
 
-CONTECT PAGE
+CONTACT PAGE
 
 .header{
   width: 500px;
