@@ -6,6 +6,10 @@
     
 }
 
+.navbar-expand-lg {
+  background-color:rgb(250, 248, 245);
+}
+
 a:hover {
   color: lightgray;
 }
@@ -14,10 +18,14 @@ a:hover {
     margin:30px;
 }
 
+.text-center {
+  background-color:rgb(250, 248, 245);
+}
+
 CAROUSEL
 
 .carousel-item{
-  object-fit: fill;
+  object-fit:scale-down;
   height: 700px;
 }
 
@@ -25,6 +33,10 @@ CAROUSEL
   position: center;
   width: 100%;
   height: auto;
+  padding: 20px 300px 20px 300px;
+  border: 1pc;
+  padding: 20px 300px 20px 300px;
+  border: 1;
 }
 
 
@@ -35,10 +47,11 @@ INDEX PAGE
 }
 
 .col-md-4 {
-  padding: 30px 50px 30px 50px;
+  padding: 20px;
   text-align: center;
   font-family: garamond;
   font-size:45px;
+  color:  rgb(110, 17, 17);
 }
 
 .card-body {
