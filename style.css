@@ -2,7 +2,7 @@
     font-family: garamond;
     font-size: 21px;
     color: #774224;
-    padding: 18px;
+    padding: 10px;
     
 }
 
@@ -19,7 +19,7 @@ a:hover {
 }
 
 .text-center {
-  background-color:rgb(250, 248, 245);
+  background-color:rgb(241, 235, 225);
 }
 
 CAROUSEL
@@ -33,10 +33,7 @@ CAROUSEL
   position: center;
   width: 100%;
   height: auto;
-  padding: 20px 300px 20px 300px;
-  border: 1pc;
-  padding: 20px 300px 20px 300px;
-  border: 1;
+  padding: 0px
 }
 
 
@@ -47,6 +44,7 @@ INDEX PAGE
 }
 
 .col-md-4 {
+  padding:40px 20px 40px 20px;
   text-align: center;
   font-family: garamond;
   font-size:45px;
@@ -63,12 +61,7 @@ INDEX PAGE
 
 CONTACT PAGE
 
-.header{
-  width: 500px;
-  height: 200px;
-  margin: auto;
-  text-align: center;
-  font-family: Georgia;
-  color:  rgb(110, 17, 17);
-}
 
+.col-md-12 {
+  text-align: center;
+}
