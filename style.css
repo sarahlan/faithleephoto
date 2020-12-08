@@ -3,7 +3,7 @@
     font-size: 22px;
     color: #774224;
     padding: 10px;
-    
+    display: inline;
 }
 
 .navbar-expand-lg {
@@ -96,15 +96,74 @@ INDEX PAGE
   align-items: center;
 }
 
-a:hover {
-  background-color: rgb(97, 96, 96);
-  color:white
+.instagram{
+  width: 26%;
+  height:40px;
+  background-color: rgb(214, 123, 18);
+  color:white;
+  border:none;
+  padding:2%;
+  font:22px/30px;
+  font-family:garamond;
 }
 
-a:active {
-  background-color: black;
+body {
+  background-color: rgb(255, 248, 248);
 }
 
-a:visited {
-  background-color: #ccc;
+
+.tittle{
+ font-family:garamond;
+ font-size:  50px;
+ color:rgb(110, 17, 17);
+ text-align: center;
 }
+
+.aboutme{
+  font-family:garamond;
+  color:rgb(110, 17, 17);
+ text-align: center;
+}
+
+.faith{
+  width:200px;
+  height: 300px;
+  align-content: center;
+}
+ 
+.gallery {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  -webkit-column-width: 33%;
+  -moz-column-width: 33%;
+  column-width: 33%; }
+
+
+  .gallery .pics {
+  -webkit-transition: all 350ms ease;
+  transition: all 350ms ease; }
+
+
+  .gallery .animation {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1); }
+  
+  @media (max-width: 450px) {
+  .gallery {
+  -webkit-column-count: 1;
+  -moz-column-count: 1;
+  column-count: 1;
+  -webkit-column-width: 100%;
+  -moz-column-width: 100%;
+  column-width: 100%;
+  }
+  }
+  
+  @media (max-width: 400px) {
+  .btn.filter {
+  padding-left: 1.1rem;
+  padding-right: 1.1rem;
+  }
+  }
